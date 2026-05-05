@@ -1,0 +1,88 @@
+.app-page {
+  max-width: 1350px;
+  margin: 0 auto;
+  padding: 48px 36px;
+}
+
+.app-header h1 {
+  font-size: 34px;
+  font-weight: 900;
+  color: #020617;
+  margin-bottom: 12px;
+}
+
+.app-header p {
+  color: #64748b;
+  font-size: 16px;
+  margin-bottom: 28px;
+}
+
+.app-card {
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 32px;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 18px 45px rgba(15, 23, 42, 0.08);
+  max-width: 900px;
+}
+
+.app-form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 22px;
+}
+
+.app-form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.app-form-group label {
+  font-size: 14px;
+  font-weight: 800;
+  color: #0f172a;
+}
+
+.app-form-group input,
+.app-form-group select {
+  padding: 15px;
+  border-radius: 12px;
+  border: 1px solid #cbd5e1;
+  background: #f8fafc;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.app-actions {
+  margin-top: 28px;
+}
+
+.app-btn {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 15px 26px;
+  border-radius: 12px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.app-message {
+  max-width: 900px;
+  padding: 14px 18px;
+  border-radius: 12px;
+  margin-bottom: 18px;
+  font-weight: 700;
+}
+
+.app-message-success {
+  background: #dcfce7;
+  color: #166534;
+}
+
+@media (max-width: 768px) {
+  .app-form-grid {
+    grid-template-columns: 1fr;
+  }
+}
