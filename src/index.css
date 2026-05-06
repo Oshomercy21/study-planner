@@ -504,3 +504,74 @@ td strong {
   background: #eef4ff !important;
   color: #0f172a !important;
 }
+/* MOBILE RESPONSIVE FIX */
+@media (max-width: 768px) {
+  #root > div {
+    flex-direction: column !important;
+  }
+
+  .sidebar {
+    width: 100% !important;
+    min-height: auto !important;
+    height: auto !important;
+    position: relative !important;
+    padding: 20px !important;
+  }
+
+  .sidebar nav,
+  .sidebar ul {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 10px !important;
+  }
+
+  .sidebar a {
+    font-size: 14px !important;
+    padding: 12px !important;
+    text-align: center !important;
+  }
+
+  .sidebar h1,
+  .sidebar .logo,
+  .sidebar-title {
+    font-size: 22px !important;
+  }
+
+  main,
+  .main-content,
+  .page-content {
+    width: 100% !important;
+    margin-left: 0 !important;
+    padding: 20px !important;
+  }
+
+  .dashboard-cards,
+  .cards-grid,
+  .content-grid,
+  .form-grid,
+  .summary-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .card,
+  .dashboard-card,
+  .premium-card {
+    width: 100% !important;
+  }
+
+  h1 {
+    font-size: 32px !important;
+    line-height: 1.2 !important;
+  }
+
+  p {
+    font-size: 15px !important;
+  }
+
+  input,
+  select,
+  button,
+  textarea {
+    width: 100% !important;
+  }
+}
